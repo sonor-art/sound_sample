@@ -319,7 +319,7 @@ table thead tr{
 }
 
 .foot_url p {
-  display: inline-block;
+  text-align: center;
 }
 
 
