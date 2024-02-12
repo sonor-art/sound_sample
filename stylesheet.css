@@ -42,35 +42,6 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
 
 header {
   height: 65px;
@@ -132,23 +103,13 @@ header {
   width: 25%;
 }
 
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
 
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
-  color: #b3aeb5;
+  color: #999;
 }
 
 .heading h3 {
@@ -156,7 +117,7 @@ header {
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #888;
   padding-bottom: 80px;
   text-align: center;
 }
