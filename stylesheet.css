@@ -1,326 +1,168 @@
-* {
-  box-sizing: border-box;
-}
-
+@charset "UTF-8";
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+	margin: 0;
+	padding: 0;
+	font-family: "游ゴシック Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	line-height: 1.6;
+    font-size: 16px;
 }
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
+#header-container {
   margin: 0 auto;
+  width: 694px;
 }
-
-.top-wrapper {
-  color: ＃fff;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 20px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 20px;
-}
-
-
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+	background-color: #214555;
 }
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
+#head-inner {
+    padding: 25px 0;
 }
-
-.header-left {
-  float: left;
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	padding: 10px 0 0 0;
+	margin: 0;
+	color: #f3e6d2;
 }
-
-.header-right {
-  float: right;
-  margin-right: -25px;
+h1 a {
+	font-weight: bold;
+	color: #f3e6d2;
+	text-decoration: none;
 }
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: #222;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+h1 a:hover {
+	color: #e8f3f9;
+	text-decoration: none;
 }
-
-.header-right a:hover {
-  background-color: rgba(255,255,255,0.3);
+.description {
+	line-height: 1.2;
+	color: #f3f2eb;
+	margin: 0.5em 0 1em 0;
 }
-
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+h2 {
+	font-size: 22px;
+	margin: 0;
+	padding: 4px 0;
+	border-bottom: 1px solid #999;
 }
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+#content-wrapper {margin: 0 auto;
+    width: 694px;}
+main {
+	color: #333;
 }
-
-.heading h2 {
-  font-weight: normal;
+#inner {
+	padding: 20px 0 0 0;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
+ul {
+	margin: 0 0 0 1em;
+	padding: 0;
 }
-
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #999;
+li {
+	list-style: disc;
 }
-
-.heading h3 {
-  font-weight: normal;
+p {
+	margin: 1em 0;
 }
-
-.message-wrapper {
-  border-bottom: 1px solid #888;
-  padding-bottom: 80px;
-  text-align: center;
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
 }
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
+hr {
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #ccc;
+	height: 1px;
 }
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+a {
+	font-weight: normal;
 }
+aside {
 
-footer img {
-  width: 125px;
 }
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+#middle-inner {
+	padding: 20px 0 20px 0;
 }
-
+.side-title {
+	padding: 7px 16px 7px 16px;
+	background-color: #f1f1f1;
+	color: #333;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.side {
+	margin: 0 0 10px 0;
+	padding: 2px 8px 8px 7px;
+	background-color: #fcfcfc;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+.side ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+.side li {
+	list-style: none;
+	margin-bottom: 0.5em;
+}
+.side li a {
+	text-decoration: none;
+	color: #214555;
+}
+.side li a:hover {
+	text-decoration: underline;
+}
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+	font-size: 15px;
+	height: 100px;
+	clear: both;
+	text-align: center;
 }
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+blockquote {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 10px;
 }
-
-.clear {
-  clear: left;
+@media screen and (max-width: 767px) {
+#header-container {
+    margin: 0;
+	width: 100%;
 }
+header {
 
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: center;
-  }
 }
-
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
+#head-inner {
+    padding: 25px 10px;
+	background-color: #214555;
 }
-
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
-  }
+.description {
 }
-
-/* 表のスタイル */
-body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.25;
+#content-wrapper {
+margin: 0;
+	width: 100%;}
+main {
+width: 100%;
+	color: #333;
 }
-
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  padding: 0;
-  width: 650px;
-  table-layout: fixed;
+#inner {
+	padding: 20px 10px 0 10px;
 }
-
-table tr {
-  background-color: #fff;
-  border: 1px solid #bbb;
-  padding: .35em;
+aside {
+width: 100%;
 }
-table th,
-table td {
-  padding: 1em 10px 1em 1em;
-  border-right: 1px solid #bbb;
+#middle-inner {
+	padding: 10px 10px 20px 10px;
 }
-table th {
-  font-size: .85em;
+h1 {
+	font-size: 20px;
 }
-table thead tr{
-  background-color: #eee;
+h2 {
+	font-size: 18px;
 }
-.txt{
-   text-align: left;
-   font-size: .85em;
+h3 {
+	font-size: 16px;
 }
-.price{
-   text-align: right;
+h4 {
+	font-size: 14px;
 }
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-    width:100%
-  }
-  table th{
-    background-color: #eee;
-    display: block;
-    border-right: none;
-  }
-  table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  
-  table tr {
-    display: block;
-    margin-bottom: .625em;
-  }
-  
-  table td {
-    border-bottom: 1px solid #bbb;
-    display: block;
-    font-size: .8em;
-    text-align: right;
-    position: relative;
-    padding: .625em .625em .625em 4em;
-    border-right: none;
-  }
-  
-  table td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    position: absolute;
-    left: 10px;
-  }
-  
-  table td:last-child {
-    border-bottom: 0;
-  }
 }
-
-/* フッターのスタイル */
-.footer {
-  text-align: center;
-}
-
-.foot_url p {
-  text-align: center;
-}
-
-
-
