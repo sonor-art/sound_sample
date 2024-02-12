@@ -313,6 +313,8 @@ table thead tr{
   }
 }
 
+/* フッターのスタイル */
 .foot_url {
+  display: inline-block;
   text-align: center;
 }
