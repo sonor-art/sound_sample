@@ -312,3 +312,7 @@ table thead tr{
     border-bottom: 0;
   }
 }
+
+.foot_url {
+  text-align: center;
+}
